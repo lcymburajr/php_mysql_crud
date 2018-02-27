@@ -1,0 +1,19 @@
+.user-forms {
+    margin-bottom: 30px;
+}
+
+#update-form {
+    display: none;
+}
+
+#delete-form {
+    display: none;
+}
+
+#myNavbar ul li {
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
