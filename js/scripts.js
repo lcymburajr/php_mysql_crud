@@ -5,7 +5,7 @@ $(document).ready(function() {
         $('#create-form').show();
         $(this).addClass('active');
         $('form input').val('');
-        if ( $('#show-create-results').length || $('#show-update-results').length  || $('#show-delete-results' ).length ) {
+        if ($('#show-create-results').length || $('#show-update-results').length  || $('#show-delete-results' ).length) {
             $('#show-create-results, #show-update-results, #show-delete-results').empty();
         }
     });
@@ -16,7 +16,7 @@ $(document).ready(function() {
         $('#update-form').show();
         $(this).addClass('active');
         $('form input').val('');
-        if ( $('#show-create-results').length || $('#show-update-results').length  || $('#show-delete-results' ).length ) {
+        if ($('#show-create-results').length || $('#show-update-results').length  || $('#show-delete-results' ).length) {
             $('#show-create-results, #show-update-results, #show-delete-results').empty();
         }
     });
@@ -27,7 +27,7 @@ $(document).ready(function() {
         $('#delete-form').show();
         $(this).addClass('active');
         $('form input').val('');
-        if ( $('#show-create-results').length || $('#show-update-results').length  || $('#show-delete-results' ).length ) {
+        if ($('#show-create-results').length || $('#show-update-results').length  || $('#show-delete-results' ).length) {
             $('#show-create-results, #show-update-results, #show-delete-results').empty();
         }
     });
